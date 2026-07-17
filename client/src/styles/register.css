@@ -1,0 +1,88 @@
+@import url(app.css);
+
+.register-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #89ff88;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2312cc3a' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%2311aa2b' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2330c531' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%2318a32e' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2340be29' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%231d9c30' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%234ab720' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23219531' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%2353b118' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23248f33' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%2359aa0f' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23278834' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.register-container {
+  flex-direction: column;
+  gap: 2rem;
+  width: 30%;
+  background-color: rgb(179, 241, 179);
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid green;
+}
+
+.form-heading {
+  font-size: 2rem;
+}
+
+.register-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-input,
+textarea,
+select {
+  font-size: 1rem;
+  background-color: rgb(255, 254, 254);
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-family: var(--font-family);
+}
+
+.form-input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.login-link {
+  color: var(--darker-blue);
+}
+
+@media (max-width: 1184px) {
+  .register-container {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1120px) {
+  .register-container {
+    width: 35%;
+  }
+}
+
+@media (max-width: 746px) {
+  .register-container {
+    width: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .register-container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 408px) {
+  .register-container {
+    width: 70%;
+  }
+}

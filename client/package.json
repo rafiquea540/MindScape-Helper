@@ -1,0 +1,65 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@google/generative-ai": "^0.20.0",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "agora-rtc-sdk-ng": "^4.22.2",
+    "axios": "^1.2.5",
+    "chart.js": "^4.4.7",
+    "compromise": "^14.14.3",
+    "face-api.js": "^0.22.2",
+    "framer-motion": "^11.9.0",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4",
+    "jwt-decode": "^3.1.2",
+    "lucide-react": "^0.447.0",
+    "react": "^18.2.0",
+    "react-chatbot-kit": "^2.2.2",
+    "react-countup": "^6.4.1",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.7.1",
+    "react-media-recorder": "^1.7.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.8",
+    "react-time-picker": "^5.2.0",
+    "recharts": "^2.12.7",
+    "sentiment": "^5.0.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
